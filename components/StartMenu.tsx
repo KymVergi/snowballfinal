@@ -32,7 +32,7 @@ export default function StartMenu({ isOpen, onClose, onOpenModal }: StartMenuPro
     { icon: '⚙️', label: 'How It Works', action: () => onOpenModal('howitworks') },
     { icon: '💰', label: 'Tokenomics', action: () => onOpenModal('tokenomics') },
     { separator: true },
-    { icon: '🔗', label: 'Etherscan', action: () => window.open('https://etherscan.io/', '_blank') },
+    { icon: '🔗', label: 'Etherscan', action: () => window.open('https://etherscan.io/address/0x82E38D0D2f4F4f53509F1B884B084B585D33a32E', '_blank') },
     { icon: '✖️', label: 'X', action: () => window.open('https://twitter.com/sn0wb4Il', '_blank') },
     { icon: '💬', label: 'Telegram', action: () => window.open('https://t.me', '_blank') },
     { separator: true },
